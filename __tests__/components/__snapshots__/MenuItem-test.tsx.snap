@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuItem Jest snapshot 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "gray",
+        "height": 1,
+        "marginHorizontal": "10%",
+        "opacity": 0.2,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "padding": 30,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+          "fontFamily": "PlayfairDisplay-Medium",
+          "fontSize": 23,
+          "textAlign": "center",
+        }
+      }
+      testID="menu-item-title-0"
+    >
+      My Menu Item
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 18,
+          "paddingTop": 10,
+          "textAlign": "center",
+        }
+      }
+      testID="menu-item-description-0"
+    >
+      My Menu Desc
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 14,
+          "paddingTop": 10,
+          "textAlign": "center",
+        }
+      }
+      testID="menu-item-price-0"
+    >
+      $ 123
+    </Text>
+  </View>
+</View>
+`;
